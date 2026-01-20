@@ -38,6 +38,11 @@ a:hover {
   color: $dark-blue-text !important;
 }
 
+.light-gray-text {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+}
+
 .text-color-main {
   @include supportColorForIE11();
 
