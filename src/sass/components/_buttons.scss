@@ -69,7 +69,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $white-color;
+    -webkit-text-fill-color: $primary-hero-color;
     text-decoration: none;
 
     @include respond(phone) {
@@ -84,11 +84,11 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $white-color;
-  border: 2px solid $white-color;
+  color: $dark-blue-text;
+  border: 2px solid $dark-blue-text;
 
   &::after {
-    background: $white-color;
+    background: $dark-blue-text;
   }
 
   &:hover {
